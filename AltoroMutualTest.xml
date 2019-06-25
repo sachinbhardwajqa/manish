@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Execution" parallel="tests" thread-count="1">
+	<!-- <listeners>
+		<listener
+			class-name="assessment_AltoroMutual_Utils.CustomListeners" />
+	</listeners> -->
+
+	<test name="DemoTest1" parallel="none">
+		<classes>
+			<class name="testNgTests.DemoTest1" />
+			<!--<class name="testNgTests.DemoTest2" />-->
+		</classes>
+	</test>
+    <test name="DemoTest2" parallel="none">
+        <classes>
+            <!--<class name="testNgTests.DemoTest1" />-->
+            <class name="testNgTests.DemoTest2" />
+        </classes>
+    </test>
+</suite> <!-- AltoroMutual Automation Execution -->
